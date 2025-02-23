@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNSH 알리미</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #0056b3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 200px; /* 조정 가능한 높이 */
+        }
+
+        h1 {
+            font-weight: 700; /* 두꺼운 글꼴 */
+            color: #0056b3;
+            margin: 10px 0;
+        }
+
+        p {
+            font-weight: 400; /* 일반 글꼴 */
+            color: #333333;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        /* 맞다 크기수정은 padding, bor-rad, 폰사, margin만 바꾸면 된다잉잉*/  
+        .grade-button {
+            
+            border: 2px solid #FF5722; /*색깔을 */
+            background-color: #FF9800; 
+            color: black; 
+            padding: 20px 40px; 
+            border-radius: 20px;
+            font-size: 32px; 
+            cursor: pointer;
+            margin: 46px; 
+            transition: background-color 0.3s;
+        }
+
+        .grade-button:hover {
+            background-color: #FF5722; /* 호버 시 배경색 변경 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>충남과학고등학교 Q-알리미</h1>
+        <p>학생들을 위한 학교 일정 및 정보 통합 시스템</p>
+        <!-- 근디 헤더에 뭐 재원이가 보내준 헤더 양식 넣어야함함-->
+    </header>
+    <nav>
+        <button class="grade-button">1학년 >></button>
+        <button class="grade-button">2학년 >></button>
+        <button class="grade-button">3학년 >></button>
+    </nav>
+    <main>
+        
+    </main>
+    <footer>
+        <!-- 푸터 정보 추가 예정 -->
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
